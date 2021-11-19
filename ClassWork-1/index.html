@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTPS-Wikipedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>About https protocol</h1>
+    <p><b>Hypertext Transfer Protocol Secure (HTTPS)</b> is an extension of the <b>Hypertext Transfer Protocol
+            (HTTP)</b>. It is used for secure communication over a computer network, and is widely used on the
+        Internet.[1][2] In HTTPS, the communication protocol is encrypted using <b>Transport Layer Security (TLS)</b>
+        or, formerly, <b>Secure Sockets Layer (SSL)</b>. The protocol is therefore also referred to as HTTP over TLS,[3]
+        or HTTP over SSL.
+        <br>
+        <br>
+        The principal motivations for HTTPS are authentication of the accessed website, and protection of the privacy
+        and integrity of the exchanged data while in transit. It protects against man-in-the-middle attacks, and the
+        bidirectional encryption of communications between a client and server protects the communications against
+        eavesdropping and tampering.[4][5] The authentication aspect of HTTPS requires a trusted third party to sign
+        server-side digital certificates. This was historically an expensive operation, which meant fully authenticated
+        HTTPS connections were usually found only on secured payment transaction services and other secured
+        <span>corporate information systems on the World Wide Web. In 2016, a campaign by the Electronic Frontier
+            Foundation with the support of web browser developers led to the protocol becoming more prevalent</span>.[6]
+        HTTPS is now used more often by web users than the original non-secure HTTP, primarily to protect page
+        authenticity on all types of websites; secure accounts; and to keep user communications, identity, and web
+        browsing private.
+    </p>
+    <img src="img/pic.jpg" alt="Don't show">
+    <div class="new">
+        <h2>Limitations</h2>
+        <p>SSL (Secure Sockets Layer) and TLS (Transport Layer Security) encryption can be configured in two modes:
+            simple and mutual. In simple mode, authentication is only performed by the server. The mutual version
+            requires the user to install a personal client certificate in the web browser for user authentication.[31]
+            In either case, the level of protection depends on the correctness of the implementation of the software and
+            the cryptographic algorithms in use.
+            <br>
+            SSL/TLS does not prevent the indexing of the site by a web crawler, and in some cases the URI of the
+            encrypted resource can be inferred by knowing only the intercepted request/response size.[32] This allows an
+            attacker to have access to the plaintext (the publicly available static content), and the encrypted text
+            (the encrypted version of the static content), permitting a cryptographic attack.
+            <br>
+            Because TLS operates at a protocol level below that of HTTP and has no knowledge of the higher-level
+            protocols, TLS servers can only strictly present one certificate for a particular address and port
+            combination.[33] In the past, this meant that it was not feasible to use name-based virtual hosting with
+            HTTPS. A solution called Server Name Indication (SNI) exists, which sends the hostname to the server before
+            encrypting the connection, although many old browsers do not support this extension. Support for SNI is
+            available since Firefox 2, Opera 8, Apple Safari 2.1, Google Chrome 6, and Internet Explorer 7 on Windows
+            Vista.[34][35][36]
+        </p>
+    </div>
+    <div class="new">
+        <h1>History</h1>
+        <p>Netscape Communications created HTTPS in 1994 for its Netscape Navigator web browser.[42] Originally, HTTPS
+            was used with the SSL protocol. As SSL evolved into Transport Layer Security (TLS), HTTPS was formally
+            specified by RFC 2818 in May 2000. Google announced in February 2018 that its Chrome browser would mark HTTP
+            sites as "Not Secure" after July 2018.[43] This move was to encourage website owners to implement HTTPS, as
+            an effort to make the World Wide Web more secure.</p>
+    </div>
+    <h1 id="welcome">Welcome to NUBCC Web Development</h1>
+
+</body>
+
+</html>
