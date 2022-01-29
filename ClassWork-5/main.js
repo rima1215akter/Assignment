@@ -1,5 +1,3 @@
-
-  
   // USER FORM SCRIPT
   
   // Put DOM elements into variables
